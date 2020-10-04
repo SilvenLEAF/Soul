@@ -10,6 +10,7 @@ import SignUpForm from '../components/auth.js/SignUpForm';
 
 import Home from '../components/home/Home'
 import Profile from '../components/profile/Profile';
+import Contact from '../components/contact/Contact';
 
 
 
@@ -27,6 +28,7 @@ function Wrapper() {
       <Route path="/signupForm" component={SignUpForm} />
 
       <Route path="/profile" component={Profile} />
+      <Route path="/contact" component={Contact} />
 
 
 
