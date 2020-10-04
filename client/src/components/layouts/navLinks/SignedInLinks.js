@@ -29,6 +29,7 @@ export const SignedInMobileLinks = ({ setUserData }) => {
     <>
       <li><NavLink to="/" className="sidenav-close" ><i className="fa fa-home"></i>Home</NavLink></li>
       <li><NavLink to="/search" className="sidenav-close" ><i className="fa fa-search"></i>Search</NavLink></li>
+      <li><NavLink to="/allUsers" className="sidenav-close" ><i className="fa fa-users"></i>All Users</NavLink></li>
       <li><NavLink to="/contact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</NavLink></li>
       
       <li onClick={ handleLogout } ><NavLink to="/" className="sidenav-close" ><i className="fa fa-sign-out"></i>Log out</NavLink></li>
@@ -67,6 +68,7 @@ export const SignedInPCLinks = ({ setUserData }) => {
     <>
       <li><NavLink to="/" >Home</NavLink></li>
       <li><NavLink to="/search" >Search</NavLink></li>           
+      <li><NavLink to="/allUsers" >All Users</NavLink></li>           
       <li><NavLink to="/contact">Contact Me</NavLink></li>           
       
       <li onClick={ handleLogout } ><NavLink to="/" className="sidenav-close" >Log out</NavLink></li>
