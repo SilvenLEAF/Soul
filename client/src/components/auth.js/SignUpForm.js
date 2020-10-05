@@ -57,7 +57,7 @@ function SignUpForm() {
 
 
         <div className="input-field right-align">
-          <button className="btn waves-effect waves-light">
+          <button className="btn myBtn waves-effect waves-light">
             Sign up
           </button>
         </div>

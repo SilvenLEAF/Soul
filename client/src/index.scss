@@ -91,10 +91,15 @@ body{
     font-size: 270%;
     font-family: Aladin, sans-serif;
   }
-  li a {
+  
+  ul.hide-on-med-and-down li a {
+    font-size: 120%;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+  }
+
+  ul.sidenav li a {
     font-size: 150%;
-
-
   }
 }
 nav ul li:hover {
@@ -108,7 +113,7 @@ ul.sidenav {
   li {
     background-color: $bodyBG;
     &:nth-child(1) {
-      margin-top: 50px;      
+      margin-top: 50px;
     }
   }
 }
@@ -264,7 +269,14 @@ ul.sidenav {
 .input-field input[type=text]:focus + label, .input-field input[type=number]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=password]:focus + label, .input-field .materialize-textarea:focus + label {
   color: $themeColor !important;
 }
-.input-field input[type=text]:focus, .input-field input[type=number]:focus, .input-field input[type=email]:focus, .input-field input[type=password]:focus, .input-field .materialize-textarea:focus {
+
+// .input-field input[type=text]:focus, .input-field input[type=number]:focus, .input-field input[type=email]:focus, .input-field input[type=password]:focus, .input-field .materialize-textarea:focus {
+//   border-bottom: 1px solid $themeColor !important;
+//   box-shadow: 0 1px 0 0 $themeColor !important;
+// }
+
+
+ input[type=text]:focus,  input[type=number]:focus,  input[type=email]:focus,  input[type=password]:focus,  .materialize-textarea:focus {
   border-bottom: 1px solid $themeColor !important;
   box-shadow: 0 1px 0 0 $themeColor !important;
 }
@@ -323,22 +335,6 @@ ul.sidenav {
 
 
 
-// ----------------BUTTONS
-.btn.myBtn {
-  background-color: $themeColor !important;
-  &:visited {
-    background-color: $themeColor !important;
-  }
-  &:active {
-    background-color: $themeColor !important;
-  }
-  &:focus {
-    background-color: $themeColor !important;
-  }
-  &:hover {
-    background-color: darken($themeColor, 10) !important;
-  }
-}
 
 
 
@@ -364,3 +360,72 @@ ul.sidenav {
  .dropdown-content.select-dropdown li span {
    color: $themeColor !important;
  }
+
+
+
+
+
+
+
+
+ 
+/* --------------------------------------
+.             DEFAULT BUTTONS
+-------------------------------------- */
+.btn.myBtn {
+  background-color: $themeColor !important;
+  &:visited {
+    background-color: $themeColor !important;
+  }
+  &:active {
+    background-color: $themeColor !important;
+  }
+  &:focus {
+    background-color: $themeColor !important;
+  }
+  &:hover {
+    background-color: darken($themeColor, 10) !important;
+  }
+}
+
+
+
+
+
+
+.btn.myRedBtn {
+  background-color: $redColor !important;
+  &:visited {
+    background-color: $redColor !important;
+  }
+  &:active {
+    background-color: $redColor !important;
+  }
+  &:focus {
+    background-color: $redColor !important;
+  }
+  &:hover {
+    background-color: darken($redColor, 10) !important;
+  }
+}
+
+
+
+
+
+
+.btn.myBlueBtn {
+  background-color: $blueColor !important;
+  &:visited {
+    background-color: $blueColor !important;
+  }
+  &:active {
+    background-color: $blueColor !important;
+  }
+  &:focus {
+    background-color: $blueColor !important;
+  }
+  &:hover {
+    background-color: darken($blueColor, 10) !important;
+  }
+}

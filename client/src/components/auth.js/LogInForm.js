@@ -40,7 +40,7 @@ function LogInForm() {
 
         
         <div className="input-field right-align">
-          <button className="btn waves-effect waves-light">
+          <button className="btn myBtn waves-effect waves-light">
             Log in
           </button>          
         </div>

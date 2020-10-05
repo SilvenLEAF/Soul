@@ -88,7 +88,7 @@ function Contact() {
 
 
         <div className="input-field right-align">
-          <button type="submit" className= "btn waves-effect waves-light" id= "myDownloadBtn">
+          <button type="submit" className= "btn myBtn waves-effect waves-light" id= "myDownloadBtn">
             <i className="fa fa-send"></i> Send
           </button>
         </div>

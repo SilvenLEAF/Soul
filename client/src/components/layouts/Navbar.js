@@ -61,7 +61,7 @@ function Navbar() {
 
           <li style={{marginLeft: '20px'}}>
             {
-              /*userData._id */ 5 && (
+              userData.user && (
               <Link to="/profile" className="btn-floating center pulse myProfileNavIcon">
                 ZG
                 { /*userData.userName[0]*/ }
