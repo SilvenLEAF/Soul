@@ -3,7 +3,7 @@ import '../../styles/Profile.scss'
 
 
 import React, { useEffect, useContext } from 'react'
-import {  useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 
 import { AuthContext } from '../../contexts/subContexts/AuthContext';
@@ -59,7 +59,7 @@ function Profile() {
       <div className="row">
         
 
-      <div className="myProfileInfoHolder col s12 m6 offset-m2">
+      <div className="myProfileInfoHolder col s12 m6">
         <div>
           <div className="myProfileInfoTitle">
             <i className="fa fa-home"></i> Lives in 
@@ -126,10 +126,15 @@ function Profile() {
       </div>
 
 
-     <div className="myProfileAboutHolder col s12 m4">
+     <div className="myProfileAboutHolder col s12 m5 offset-m1">
      <p className="myProfileAbout">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sunt a quae tenetur iure? Sit repellendus necessitatibus unde iusto. Dignissimos quisquam consectetur vel velit rerum tempore, a accusamus saepe modi tempora sit quo? Laudantium nihil eligendi quidem. Enim nulla odit ad tenetur molestias perferendis? Culpa obcaecati voluptatum harum debitis id?
       </p>
+
+       <div className="myProfileBtnsHolder myBtnsHolder right-align">
+          <Link to="/updateProfile" className="btn blue waves-effect waves-light"><i className="fa fa-edit"></i> Update Account</Link>
+          <button className="btn myBtn waves-effect waves-light"><i className="fa fa-trash"></i> Delete Account</button>
+        </div>
      </div>
 
 

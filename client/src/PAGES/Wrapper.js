@@ -12,6 +12,7 @@ import Home from '../components/home/Home'
 import Profile from '../components/profile/Profile';
 import Contact from '../components/contact/Contact';
 import UserList from '../components/profile/UserList';
+import UpdateProfile from '../components/profile/UpdateProfile';
 
 
 
@@ -29,6 +30,7 @@ function Wrapper() {
       <Route path="/signupForm" component={SignUpForm} />
 
       <Route path="/profile" component={Profile} />
+      <Route path="/updateProfile" component={UpdateProfile} />
       <Route path="/allUsers" component={UserList} />
       <Route path="/contact" component={Contact} />
 

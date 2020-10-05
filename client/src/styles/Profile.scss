@@ -39,26 +39,48 @@
   
   
   .myProfileInfoHolder {
-    margin: 0px 0px 40px 0px;
-    font-size: 120%;
-
+    margin: 0px;
+    margin-bottom: 40px;
+    
     .myProfileInfoTitle {      
+      font-size: 120%;
       font-weight: 600;
     }
 
     .myProfileInfoAnswer {      
       margin-bottom: 10px;
+      font-size: 100%;
     }
 
 
   }
   
   p.myProfileAbout {
-    margin-bottom: 40px;
     text-indent: 50px;
     text-align: justify;
   }
 
+  .myProfileAboutHolder {
+    margin-bottom: 40px;
+  }
+
+
+  .myBtnsHolder {
+    margin-top: 20px;    
+
+    button, a.myBtn {
+      margin: 25px 0px 0px 25px;   
+    }
+  }
+
+
+  .myProfileBtnsHolder.myBtnsHolder {
+    margin-top: 20px;    
+
+    button, a.myBtn {
+      width: 180px;
+    }
+  }
 
 
 }
