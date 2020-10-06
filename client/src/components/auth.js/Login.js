@@ -14,7 +14,7 @@ function Login() {
 
   return (
     <div className="container myAuthDoor" >
-      <div className="myAuthAppName">SilvenLEAF</div>
+      <div className="myAuthAppName">RecipeAPP</div>
       <div className="myAuthTitle">Log in to your account</div>
 
 
@@ -30,7 +30,15 @@ function Login() {
             <i className="fa fa-key"></i> Log in with Email
           </div>
           </Link>
-        
+
+
+
+
+
+
+          <div className="myOauthBtn myDemoAuth">
+            <i className="fa fa-key"></i> Log in for DEMO
+          </div>
         
           
           

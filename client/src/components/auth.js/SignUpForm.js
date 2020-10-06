@@ -15,6 +15,7 @@ function SignUpForm() {
 
   return (
     <div className="container myAuthForm" >
+      <div className="myAuthAppName">RecipeAPP</div>
       <div className="myAuthTitle">Sign up</div>
 
 

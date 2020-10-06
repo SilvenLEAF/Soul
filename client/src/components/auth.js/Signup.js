@@ -14,7 +14,7 @@ function Signup() {
 
   return (
     <div className="container myAuthDoor" >
-      <div className="myAuthAppName">SilvenLEAF</div>
+      <div className="myAuthAppName">RecipeAPP</div>
       <div className="myAuthTitle">Sign up to your account</div>
 
 
@@ -32,6 +32,16 @@ function Signup() {
           </div>
           </Link>
         
+          
+
+
+
+          <div className="myOauthBtn myDemoAuth">
+            <i className="fa fa-key"></i> Log in for DEMO
+          </div>
+
+
+
           
           
           <div className="myOauthDividingOR">OR</div>

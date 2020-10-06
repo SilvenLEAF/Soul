@@ -15,7 +15,7 @@ function LogInForm() {
 
   return (
     <div className="container myAuthForm" >
-      <div className="myAuthAppName">SilvenLEAF</div>
+      <div className="myAuthAppName">RecipeAPP</div>
       <div className="myAuthTitle">Log in to your account</div>
 
 

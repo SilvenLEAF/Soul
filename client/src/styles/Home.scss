@@ -7,7 +7,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background: url("../images/landingIcon.jpg") center/cover;
+  background: $landingIcon;
 
 
   @include mQ(800px){

@@ -133,7 +133,7 @@ function Profile() {
 
        <div className="myProfileBtnsHolder myBtnsHolder right-align">
           <Link to="/updateProfile" className="btn myBlueBtn waves-effect waves-light"><i className="fa fa-edit"></i> Update Account</Link>
-          <button className="btn myBtn waves-effect waves-light"><i className="fa fa-trash"></i> Delete Account</button>
+          <button className="btn myRedBtn waves-effect waves-light"><i className="fa fa-trash"></i> Delete Account</button>
         </div>
      </div>
 

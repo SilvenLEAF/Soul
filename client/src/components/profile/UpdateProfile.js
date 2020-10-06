@@ -143,7 +143,7 @@ function UpdateProfile() {
 
         <div className="myBtnsHolder right-align">
           <button className="btn myBlueBtn waves-effect waves-light"><i className="fa fa-edit"></i> Update</button>
-          <Link to="/profile" className="btn myBtn waves-effect waves-light"><i className="fa fa-remove"></i> Cancel</Link>
+          <Link to="/profile" className="btn myRedBtn waves-effect waves-light"><i className="fa fa-remove"></i> Cancel</Link>
         </div>
      </div>
 

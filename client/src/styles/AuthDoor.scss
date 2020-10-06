@@ -122,6 +122,10 @@
     .myLocalAuth {
        background-color: $themeColor; 
     }
+    
+    .myDemoAuth {
+       background-color: complement($color: $themeColor) ; 
+    }
 
     .myOauthGoogle {
        background-color: orangered; 
