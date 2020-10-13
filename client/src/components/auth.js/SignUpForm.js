@@ -23,7 +23,7 @@ function SignUpForm() {
         <div className="input-field">
           <i className="prefix fa fa-envelope"></i>
           <input type="email" required />
-          <label htmlFor="email">Email <span className="red-text">(*required)</span></label>
+          <label htmlFor="email">Email <span className="red-text">(Required)</span></label>
         </div>
 
         
@@ -31,7 +31,7 @@ function SignUpForm() {
         <div className="input-field">
           <i className="prefix fa fa-user-plus"></i>
           <input type="text" required />
-          <label htmlFor="username">Your Username <span className="red-text">(*required)</span></label>
+          <label htmlFor="username">Your Username <span className="red-text">(Required)</span></label>
         </div>
 
 
@@ -42,14 +42,14 @@ function SignUpForm() {
             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters long"
            />
-          <label htmlFor="password">Password <span className="red-text">(*required) </span> </label>
+          <label htmlFor="password">Password <span className="red-text">(Required) </span> </label>
         </div>
 
 
         <div className="input-field">
           <i className="prefix material-icons">memory</i>
           <input type="password" autoComplete="off" required />
-          <label htmlFor="confirmPassword">Confirm Password <span className="red-text">(*required)</span> </label>
+          <label htmlFor="confirmPassword">Confirm Password <span className="red-text">(Required)</span> </label>
         </div>
 
         <p className="myAgreeTermsAndConditions">

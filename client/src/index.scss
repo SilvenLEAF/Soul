@@ -261,7 +261,13 @@ ul.sidenav {
 .    FORM INPUT INTO PRIMARY COLOR
 ------------------------------------ */
 .input-field input + label {
+  color: #000;
   pointer-events: none !important;
+
+  span {
+    margin: 0;
+    font-size: 80%;
+  }
 }
 
 

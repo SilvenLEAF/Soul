@@ -23,7 +23,7 @@ function LogInForm() {
         <div className="input-field">
           <i className="prefix fa fa-envelope"></i>
           <input type="email" required />
-          <label htmlFor="email">Email <span className="red-text">(*required)</span></label>
+          <label htmlFor="email">Email <span className="red-text">(Required)</span></label>
         </div>
 
         
@@ -32,7 +32,7 @@ function LogInForm() {
         <div className="input-field">
         <i className="prefix material-icons">memory</i>
           <input type="password" required autoComplete="off" />
-          <label htmlFor="password">Password <span className="red-text">(*required) </span> </label>
+          <label htmlFor="password">Password <span className="red-text">(Required) </span> </label>
         </div>
 
 
