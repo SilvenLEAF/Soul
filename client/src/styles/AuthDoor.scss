@@ -124,7 +124,7 @@
     }
     
     .myDemoAuth {
-       background-color: complement($color: $themeColor) ; 
+       background-color: $demoLoginBG ; 
     }
 
     .myOauthGoogle {

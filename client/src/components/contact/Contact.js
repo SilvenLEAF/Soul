@@ -64,10 +64,12 @@ function Contact() {
 
 
 
-        <div className="input-field">            
-        <i className="prefix fa fa-address-card-o"></i>
-          <input type="text" name="contactTitle" value={ title } onChange={ e=> setTitle(e.target.value) } required />
-          <label htmlFor="title">Title <span className="red-text">(*required)</span></label>
+        <div className="myInputHolder">            
+          <label htmlFor="title">Title <span className="red-text">(Required)</span></label>
+          <div>
+            <i className="myPrefix fa fa-address-card-o"></i>
+            <input type="text" name="contactTitle" value={ title } onChange={ e=> setTitle(e.target.value) } required />
+          </div>
         </div>
 
 
@@ -76,10 +78,12 @@ function Contact() {
 
 
 
-        <div className="input-field">
-          <i className="prefix fa fa-edit"></i>
-          <textarea name="content" className= "materialize-textarea" value={ content } onChange={ e=> setContent(e.target.value) } required ></textarea>            
-          <label htmlFor="content">Content <span className="red-text">(*required)</span></label>
+        <div className="myInputHolder">
+        <label htmlFor="content">Content <span className="red-text">(Required)</span></label>
+          <div>
+            <i className="myPrefix fa fa-edit"></i>
+            <textarea name="content" className= "materialize-textarea" value={ content } onChange={ e=> setContent(e.target.value) } required ></textarea>
+          </div>
         </div>
 
 
