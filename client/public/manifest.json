@@ -1,6 +1,6 @@
 {
-  "short_name": "SilvenLEAF",
-  "name": "SilvenLEAF Fullstack Maniac",
+  "short_name": "Soul",
+  "name": "Soul of Darkness",
   "icons": [
     {
       "src": "Logo.png",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#ff0000",
+  "theme_color": "#090",
   "background_color": "#ffffff"
 }
