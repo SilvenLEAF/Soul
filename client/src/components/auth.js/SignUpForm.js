@@ -15,8 +15,8 @@ function SignUpForm() {
 
   return (
     <div className="container myAuthForm" >
-      <div className="myAuthAppName">RecipeAPP</div>
-      <div className="myAuthTitle">Sign up</div>
+      <div className="myAuthAppName">Soul</div>
+      <div className="myAuthTitle">Sign up a new account</div>
 
 
       <form>
