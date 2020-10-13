@@ -20,11 +20,11 @@ function Home() {
       <div id="myLandingIcon"></div>
       <div className="myLandingContentHolder">
         <h2 id="myLandingTitle" className="pageTitle">
-          Whadyawanna eat?
+          Soul of Darkness
         </h2>
         
         <div className="myLandingDescription">
-          Wanna eat something delicious? I'm the magical book with all the secrets of the world's delicacies!
+          Hi there! I am LEAF, a crazy Fullstack maniac, madly in love with JS, aiming Mt View Google. I LOVE coding.
         </div>
 
         <h6 className="red-text myWithLoveFromSilvenLEAF" >
