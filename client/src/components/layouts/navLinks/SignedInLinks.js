@@ -28,6 +28,7 @@ export const SignedInMobileLinks = ({ setUserData }) => {
   return (
     <>
       <li><NavLink to="/" className="sidenav-close" ><i className="fa fa-home"></i>Home</NavLink></li>      
+      <li><NavLink to="/profile" className="sidenav-close" ><i className="fa fa-user"></i>Profile</NavLink></li>
       <li><NavLink to="/allUsers" className="sidenav-close" ><i className="fa fa-users"></i>All Users</NavLink></li>
       <li><NavLink to="/contact" className="sidenav-close" ><i className="fa fa-envelope"></i>Contact Me</NavLink></li>
       

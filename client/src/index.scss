@@ -50,7 +50,13 @@ body{
 
 
 
+.myThemeColorText {
+  color: $themeColor;
+}
 
+.myThemeColorBG {
+  background-color: $themeColor;
+}
 
 .pageTitle {  
   margin: 25px 0px;

@@ -98,6 +98,12 @@ function Contact() {
         </div>
 
 
+        <div className="myDefaultFormFooter">
+          <p>You can also connect with me on Twitter. <span className="myThemeColorText">@SilvenLEAF</span>.</p>          
+          <p>I'd LOVE to be your friend. Feel free to reach out to me!</p>
+        </div>
+
+
 
 
         

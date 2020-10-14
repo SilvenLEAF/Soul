@@ -3,14 +3,17 @@
 
 
 .myDefaultForm {
-  margin: 70px 20px;    
+  margin: 50px auto;    
   padding:30px;
   padding-top: 20px;
+
+  max-width: 500px;
 
   box-shadow: $awesomeShadow;
   background-color: #fff;
 
   @include mQ(800px){
+    margin: 40px auto;    
     margin-bottom: 0;
   }
 
@@ -19,6 +22,17 @@
   .myDefaultFormName{
     margin: 10px 0px;
     font-family:  Dosis, sans-serif;
+  }  
+  
+  
+  .myDefaultFormFooter{
+    margin: 0;
+    margin-top: 50px;
+    
+    
+    p {
+      margin: 0;
+    }    
   }  
 
 
@@ -88,7 +102,7 @@
         background-color: #f1f1f1;
         border: none;
 
-        height: 150px !important;
+        min-height: 150px !important;
       }
 
 
